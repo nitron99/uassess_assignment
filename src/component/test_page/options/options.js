@@ -5,8 +5,6 @@ const Options = ({ data, msq, saveselect , save}) => {
 
     const [select, setSelect] = useState(data.selected);
     const [msqselect, setMsqselect] = useState(data.selected);
-    const length = data.selected.length
-  
 
     const clickHandler = (e) => {
       if(msq)
@@ -32,8 +30,6 @@ const Options = ({ data, msq, saveselect , save}) => {
     } else didMountRef.current = true
     }
   ,[data.options])
-
-
       return (
         <div>
         {data.options.map((item, index) => {
@@ -45,7 +41,6 @@ const Options = ({ data, msq, saveselect , save}) => {
         })}
 
       </div>
-
     )
   }
 

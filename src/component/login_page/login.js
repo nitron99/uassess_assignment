@@ -15,7 +15,7 @@ function Login({authy}){
     const submitform = (e) => {
         e.preventDefault()
         const newEntry = {email: email ,password: password}
-        if(users[1].email === newEntry.email && users[1].password === newEntry.password)
+        if(users[0].email === newEntry.email && users[0].password === newEntry.password)
         {
             authy()
             navigate('/test')

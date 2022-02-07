@@ -1,6 +1,5 @@
 import React from 'react';
 import './result.css';
-import {Link} from 'react-router-dom';
 
 function Result({totalques, correct, incorrect}) {
   return (
