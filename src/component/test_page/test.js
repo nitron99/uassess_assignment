@@ -1,4 +1,4 @@
-import React, {useState, useRef, useEffect} from 'react';
+import React, {useState} from 'react';
 import './test.css';
 import {questions} from './questions/questions';
 import Options from './options/options';
@@ -56,10 +56,6 @@ function Test() {
     const skip = () =>{
         questions[currentQuestion].color = "#b8baba";
         if(currentQuestion<totalques-1) setCurrentQuestion(currentQuestion+1);
-    }
-
-    const submit = () => {
-        setSubmitted(true);
     }
 
     const panelclick = (e) => {
