@@ -42,7 +42,8 @@ function Login({authy}){
                                 <input className="password" type="password" name="password" id="password" autoComplete="off" value={password} 
                                     required onChange={(e) => setPassword(e.target.value)}/>
                             </div>  
-
+                            Email  - admin<br/>
+                            password - admin
                             <button type="submit" className="home-btn">Login</button>
                             {error && "Invalid Login Credentials.."}
                             
