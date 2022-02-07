@@ -1,12 +1,10 @@
 import React, {useState, useRef, useEffect} from 'react';
 import './test.css';
-import {Link} from 'react-router-dom';
 import {questions} from './questions/questions';
-import QuesPanel from './ques_panel/ques_panel';
 import Options from './options/options';
 import Result from '../result_page/result';
 
-function Test({authy}) {
+function Test() {
 
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [correct, setCorrect] = useState(0);
@@ -15,7 +13,6 @@ function Test({authy}) {
     const [submitted, setSubmitted] = useState(false);
     const totalques = questions.length;
 
-    const logout = () => { authy() }
 
     const select = (e) => { if(questions[currentQuestion].msq) 
         { 
