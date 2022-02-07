@@ -1,0 +1,15 @@
+.result-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  height: 20rem;
+  width: 20rem;
+  font-size: 2rem;
+  margin: auto;
+  margin-top: 2rem;
+}

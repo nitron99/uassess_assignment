@@ -1,0 +1,42 @@
+/*
+#f1b1b1
+#82e6e8
+*/
+
+.home-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.home {
+  width: 80vw;
+  height: 100vh;
+  font-size: 2rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.home-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: -10rem;
+}
+
+.home-btn {
+  width: 16rem;
+  height: 6rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+
+  border-radius: 30px;
+  border-style: hidden;
+  background-image: linear-gradient(to right, #f1b1b1, #82e6e8);
+}
+
+.home-btn:hover {
+  box-shadow: 1.9px 3.6px 11.7px rgba(0, 0, 0, 0.143),
+    7.7px 14.4px 57.3px rgba(0, 0, 0, 0.214),
+    16px 30px 123px rgba(0, 0, 0, 0.35);
+}

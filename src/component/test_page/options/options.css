@@ -1,0 +1,31 @@
+.options-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 2rem;
+  background-color: #e0e0e0;
+  padding: 1.8rem;
+  border-radius: 30px;
+}
+
+.options-container:hover {
+  box-shadow: 1.9px 3.6px 11.7px rgba(0, 0, 0, 0.143),
+    7.7px 14.4px 57.3px rgba(0, 0, 0, 0.214),
+    16px 30px 123px rgba(0, 0, 0, 0.35);
+}
+
+.selected-container {
+  background-color: #cf3249;
+}
+
+#options {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 20px;
+}
+
+@media (max-width: 980px) {
+  .options-container {
+    margin: 1.5rem;
+  }
+}
